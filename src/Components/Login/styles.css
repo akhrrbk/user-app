@@ -1,0 +1,56 @@
+.app__login {
+  background-color: lightcoral;
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+}
+
+.app__login div {
+  border: 1px solid black;
+}
+
+.app__login-right,
+.app__login-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* left side of the content */
+
+.app__login-left .logo,
+.app__login-left .signin {
+  margin: 2rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 30px;
+  /* or 63% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.019em;
+}
+
+/* right side container */
+.app__login-right {
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+
+  margin: 1rem;
+}
+
+.app__login-right .container {
+  width: 57.3%;
+  height: 36.36%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
